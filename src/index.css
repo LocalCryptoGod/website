@@ -1,10 +1,25 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body.v{
+  overflow: hidden;    
+  -webkit-animation: v 8s infinite;
+  animation: v 8s infinite;
+}
+
+@keyframes v{
+0% {background:#29ADF0;}
+20%{background:#F02999;}
+40%{background:#F06E29;}
+60%{background:#F0D829;}
+80%{background:#29F03A;}
+100%{background:#29ADF0;}
+}
+
+@-webkit-keyframes v{
+0% {background:#29ADF0;}
+20%{background:#F02999;}
+40%{background:#F06E29;}
+60%{background:#F0D829;}
+80%{background:#29F03A;}
+100%{background:#29ADF0;}
 }
 
 code {
