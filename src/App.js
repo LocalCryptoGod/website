@@ -4,7 +4,7 @@ import Typewriter from 'typewriter-effect';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App v">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <Typewriter
