@@ -26,3 +26,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#info {
+  text-align: center;
+  color: red;
+  background-color: rgb(0, 0, 0);
+  font-size: xx-large;
+}
