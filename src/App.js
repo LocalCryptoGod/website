@@ -12,8 +12,8 @@ function App() {
             strings: ['Hello, Welcome to the world of LocalCryptoGod', 'Some cool shit is about to happen'],
              autoStart: true,
              loop: true,
-            }}
-          />
+          }}
+        />
         <a
           className="App-link"
           href="https://twitter.com/localcryptogod"
