@@ -9,10 +9,11 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <Typewriter
           options={{
-            strings: ['Hello, Welcome to the world of LocalCryptoGod', 'Some cool shit is about to happen'],
+            strings: ['Hello, Welcome to the world of LocalCryptoGod', 'Some cool shit is about to happen!!!'],
              autoStart: true,
              loop: true,
-          }}
+                         
+            }}
         />
         <a
           className="App-link"
@@ -22,7 +23,7 @@ function App() {
         >
           LocalCryptoGod
         </a>
-        <div id="info">This is where the cool stuff goes<br></br>Some of my favorite NFTs</div>
+        <div id="info"><br></br>Here are some of my favorite NFTs<br></br></div>
         <div class="row">
           <div class="column">
             <img src="https://www.nuclearnerds.io/api/image/8976/"></img>
