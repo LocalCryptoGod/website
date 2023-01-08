@@ -5,6 +5,7 @@
 #link {
   margin-top: 10px;
   margin-bottom: -120px;
+  max-width: 100%;
 }
 .App-logo {
   height: 75vmin;
