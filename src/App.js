@@ -15,15 +15,18 @@ function App() {
                          
             }}
         />
+
+        <div id="link">
         <a
-          className="App-link"
+          Name="App-link"
           href="https://twitter.com/localcryptogod"
           target="_blank"
           rel="noopener noreferrer"
         >
           LocalCryptoGod
         </a>
-        <div id="info"><br></br>Here are some of my favorite NFTs<br></br></div>
+        </div>
+        <div class="info"><br></br>Here are some of my favorite NFTs<br></br></div>
         <div class="row">
           <div class="column">
             <img src="https://www.nuclearnerds.io/api/image/8976/"></img>

@@ -2,11 +2,16 @@
   text-align: center;
 }
 
+#link {
+  margin-top: 10px;
+  margin-bottom: -120px;
+}
 .App-logo {
   height: 75vmin;
   max-width: 100%;
   pointer-events: none;
-}
+ }
+
 
 
 .App-body {
@@ -21,7 +26,10 @@
 
 .App-link {
   position: center;
-  color: #4613d2;
+  color: black;
+  border: black solid 8px;
+  padding: 10px;
+  margin-top: 50px;
 }
 
 /* GLOBAL STYLES */
@@ -74,10 +82,17 @@ code {
     monospace;
 }
 
-#info {
+a {
+  text-decoration: none;
+}
+
+.info {
+  text-shadow: black 7px 0px 7px;
   text-align: center;
-  color: rgb(0, 0, 0);
-  font-size: xx-large;
+  color: rgb(79, 62, 62);
+  font-size: 100px;
+  margin-bottom: 25px; 
+  
 }
 .row {
   display: flex;
