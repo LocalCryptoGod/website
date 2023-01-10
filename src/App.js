@@ -26,7 +26,7 @@ function App() {
           LocalCryptoGod
         </a>
         </div>
-        <div class="info"><br></br>Here are some of my favorite NFTs<br></br></div>
+        <div class="info">Some of my favorite NFTs</div>
         <div class="row">
           <div class="column">
             <img src="https://www.nuclearnerds.io/api/image/8976/"></img>

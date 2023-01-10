@@ -3,26 +3,28 @@
 }
 
 #link {
+ 
   margin-top: 10px;
   margin-bottom: -120px;
   max-width: 100%;
 }
+a {
+  color: red;
+  text-decoration: none;
+  text-shadow: rgb(230, 158, 158) 0px 0px 10px;
+}
 
 .App-logo {
+  background: pink;
   height: 75vmin;
   max-width: 100%;
   pointer-events: none;
   }
 
-.info:hover {  transform: scale(1.05, 1.05);;
-  
-  
-}
-
-
+.info:hover {  transform: scale(1.05, 1.05);;}
 
 .App-body {
-  background-color: #f25c05;
+  background-color: #81563d;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -32,6 +34,7 @@
 }
 
 .App-link {
+  
   position: center;
   color: black;
   border: black solid 8px;
@@ -59,62 +62,11 @@ body {
 
 
 .v {
+  background: rgba(252, 252, 252, 0.24);
   overflow: scroll;
   -webkit-animation: v 8s infinite;
   animation: v 8s infinite;
   font-size: 50px;
-}
-
-@keyframes v {
-  0% {
-    background: #29ADF0;
-  }
-
-  20% {
-    background: #F02999;
-  }
-
-  40% {
-    background: #F06E29;
-  }
-
-  60% {
-    background: #F0D829;
-  }
-
-  80% {
-    background: #29F03A;
-  }
-
-  100% {
-    background: #29ADF0;
-  }
-}
-
-@-webkit-keyframes v {
-  0% {
-    background: #29ADF0;
-  }
-
-  20% {
-    background: #F02999;
-  }
-
-  40% {
-    background: #F06E29;
-  }
-
-  60% {
-    background: #F0D829;
-  }
-
-  80% {
-    background: #29F03A;
-  }
-
-  100% {
-    background: #29ADF0;
-  }
 }
 
 code {
@@ -123,11 +75,10 @@ code {
     monospace;
 }
 
-a {
-  text-decoration: none;
-}
+
 
 .info {
+  background: orange;
   transition: ease-in 5s;
   transform: translate(0);
   text-shadow: black 7px 0px 7px;
@@ -135,6 +86,11 @@ a {
   color: rgb(79, 62, 62);
   font-size: 100px;
   margin-bottom: 25px;
+  margin-top: 150px; 
+  height: auto;
+  padding: 25px;
+  
+  
 
 }
 
